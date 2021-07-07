@@ -1,0 +1,16 @@
+C:\Users\gregory.minkovsky.ad\source\repos\SignalRProgressBar\SignalrProgressDemo\obj\Debug\SignalrProgressDemo.csprojAssemblyReference.cache
+C:\Users\gregory.minkovsky.ad\source\repos\SignalRProgressBar\SignalrProgressDemo\obj\Debug\SignalrProgressDemo.csproj.CoreCompileInputs.cache
+C:\Users\gregory.minkovsky.ad\source\repos\SignalRProgressBar\SignalrProgressDemo\bin\SignalrProgressDemo.dll.config
+C:\Users\gregory.minkovsky.ad\source\repos\SignalRProgressBar\SignalrProgressDemo\bin\SignalrProgressDemo.dll
+C:\Users\gregory.minkovsky.ad\source\repos\SignalRProgressBar\SignalrProgressDemo\bin\SignalrProgressDemo.pdb
+C:\Users\gregory.minkovsky.ad\source\repos\SignalRProgressBar\SignalrProgressDemo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gregory.minkovsky.ad\source\repos\SignalRProgressBar\SignalrProgressDemo\bin\SignalR.dll
+C:\Users\gregory.minkovsky.ad\source\repos\SignalRProgressBar\SignalrProgressDemo\bin\System.Web.Helpers.dll
+C:\Users\gregory.minkovsky.ad\source\repos\SignalRProgressBar\SignalrProgressDemo\bin\System.Web.Mvc.dll
+C:\Users\gregory.minkovsky.ad\source\repos\SignalRProgressBar\SignalrProgressDemo\bin\System.Web.WebPages.dll
+C:\Users\gregory.minkovsky.ad\source\repos\SignalRProgressBar\SignalrProgressDemo\bin\System.Web.Razor.dll
+C:\Users\gregory.minkovsky.ad\source\repos\SignalRProgressBar\SignalrProgressDemo\bin\System.Web.WebPages.Razor.dll
+C:\Users\gregory.minkovsky.ad\source\repos\SignalRProgressBar\SignalrProgressDemo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\gregory.minkovsky.ad\source\repos\SignalRProgressBar\SignalrProgressDemo\obj\Debug\SignalrProgressDemo.csproj.CopyComplete
+C:\Users\gregory.minkovsky.ad\source\repos\SignalRProgressBar\SignalrProgressDemo\obj\Debug\SignalrProgressDemo.dll
+C:\Users\gregory.minkovsky.ad\source\repos\SignalRProgressBar\SignalrProgressDemo\obj\Debug\SignalrProgressDemo.pdb

@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/gauge-bar.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/jquery-1.6.4.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.signalr.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/signalr/hubs")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/simple-gauge-bar.js?v1")" type="text/javascript"></script>
+
+    <script type="text/javascript">
+//        $(document).ready(function () {
+//            $("#sendButton").click(function () {
+//                chat.send($('#msg').val());
+//            });
+
+//            var chat = $.connection.chat;  
+//            chat.addMessage = function (message) {
+//                $('#messages').append('<li>' + message + '</li>');
+//            };
+
+//            $.connection.hub.start();
+//        });
+
+        $(function () {
+            var bookingHub = $.connection.bookingHub;
+
+            $("#percButton").click(function () {
+                bookingHub.processPendingEmails();
+            });
+
+            $("#bookButton").click(function () {
+                bookingHub.bookFlight("fco", "jfk");
+            });
+
+            bookingHub.updateGaugeBar = function (perc) {
+                $("#bar").html(GaugeBar.generate(perc));
+            };
+            bookingHub.displayMessage = function (message) {
+                $("#msg").html(message);
+            };
+
+            $.connection.hub.start();
+        });
+    </script>
+</head>
+<body>
+    <div class="page">
+        <div id="header">
+            <div id="title">
+                <h1>Progress with SignalR</h1>
+            </div>
+            <div id="logindisplay">
+                &nbsp;
+            </div>
+            <div id="menucontainer">
+                <ul id="menu">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            @RenderBody()
+        </div>
+        <div id="footer">
+        </div>
+    </div>
+</body>
+</html>
